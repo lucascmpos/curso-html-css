@@ -1,0 +1,23 @@
+.lista-resumo {
+    font-style: italic;
+}
+
+#habilidades {
+    font-weight: bold;
+}
+
+blockquote p {
+    font-weight: bold;
+}
+
+li:nth-child(2n+1) {
+    font-weight: bold;
+}
+
+#sobre p:nth-of-type(odd) {
+    font-weight: bold;
+}
+
+ol.lista-resumo {
+    outline: solid 1px red;
+}
